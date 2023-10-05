@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Popping', sans-serif;
+}
+
+html{
+    font-size: 10 px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 1.9rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+header{
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0%;
+    z-index: 333;
+}
+
+.container{
+    width: 96%;
+    max-width: 117rem;
+    margin: 0 auto;
+}
+
+.navbar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+.navbar h1{
+    text-transform: uppercase;
+    color: rgb(248, 58, 58);
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.hero{
+    max-width: 114rem;
+    height: 40rem;
+    background: url('images/1.jpeg')
+    no-repeat center center / cover;
+    margin: 5rem auto;
+}
+
+main{
+    width: 100%;
+    max-width: 80rem;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    padding: 3rem;
+    border-radius: 1.5rem;
+    margin-top: -15rem;
+}
+
+main h1{
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+main p{
+    color: #5b5963;
+    margin: 1rem 0;
+}
+
+main .content h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #1b1a1f;
+    margin: 2rem 0;
+}
+
+.text .button p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+blockquote{
+    font-size: 1.4rem;
+    padding: 1rem 2.8rem;
+    line-height: 1.6;
+    font-weight: 300;
+    box-shadow: inset 0.5rem 0 0 rgb(248, 58, 58);
+    background-color: rgb(252, 242, 242);
+}
+
+.tags{
+    display: flex;
+    align-items: center;
+}
+
+.tags p{
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+
+.tags a{
+    display: inline-block;
+    padding: 0.3rem 1.5rem;
+    background-color: beige;
+    color: #5b5963;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0 0.5rem;
+}
+
+.articles{
+    width: 100%;
+    background-color: #f5f5f5;
+    margin: 5rem 0;
+    padding: 5rem 0;
+}
+
+.articles .article-heading{
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.article-heading h5{
+    font-size: 9.5rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    position: relative;
+    color: #f0e7e4;
+    text-transform: uppercase;
+}
+
+.article-heading h6{
+    font-size: 4rem;
+    font-weight: 200;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #5b5963;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem auto;
+  gap: 5rem;
+}
+
+
+.cards .card-container:hover a{
+    transform: translateY(-1rem);
+    background-color: bisque;
+    color: white;
+}
+
+.cards .card-container .card-text{
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 0 0.3rem grey;
+}
+
+.cards .card-container .card-text h4{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.cards .card-container .card-text p{
+    font-size: 1rem;
+}
+
+.articles .credits{
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+footer{
+    background-color: white;
+    padding: 3rem 0;
+}
+
+.icons{
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/* for credit page */
+.etext .list 
+
+li{
+    font-family: 'Popping', sans-serif;
+    color: #5b5963;
+    list-style: circle;
+}
+
+.me{
+    font-size: 1.2rem;
+    text-transform: none;
+    line-height: 1.6;
+    font-weight: 300;
+    margin: 0 auto;
+    max-width: 80rem;
+}
